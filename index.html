@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Defender - Space Shooter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🚀 COSMIC DEFENDER 🚀</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Score:</span>
+                    <span id="score" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">High Score:</span>
+                    <span id="highScore" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Level:</span>
+                    <span id="level" class="stat-value">1</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Lives:</span>
+                    <span id="lives" class="stat-value">❤️❤️❤️</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-wrapper">
+            <canvas id="gameCanvas"></canvas>
+
+            <div id="startScreen" class="overlay">
+                <div class="overlay-content">
+                    <h2>Welcome to Cosmic Defender!</h2>
+                    <p>Defend Earth from the alien invasion!</p>
+                    <div class="controls-info">
+                        <p><strong>Controls:</strong></p>
+                        <p>← → Arrow Keys: Move</p>
+                        <p>SPACE: Shoot</p>
+                        <p>P: Pause</p>
+                    </div>
+                    <button id="startButton" class="game-button">START GAME</button>
+                </div>
+            </div>
+
+            <div id="pauseScreen" class="overlay hidden">
+                <div class="overlay-content">
+                    <h2>PAUSED</h2>
+                    <p>Press P to resume</p>
+                    <button id="resumeButton" class="game-button">RESUME</button>
+                </div>
+            </div>
+
+            <div id="gameOverScreen" class="overlay hidden">
+                <div class="overlay-content">
+                    <h2>GAME OVER</h2>
+                    <p id="finalScore"></p>
+                    <p id="newHighScore" class="hidden">🎉 NEW HIGH SCORE! 🎉</p>
+                    <button id="restartButton" class="game-button">PLAY AGAIN</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Tip: Destroy enemies quickly to earn combo multipliers! 🔥</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
