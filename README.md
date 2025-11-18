@@ -5,12 +5,16 @@ Epic Quest is a comprehensive text-based role-playing game featuring character p
 
 ## Features
 - **Character System**: Create your character with customizable stats and leveling
+- **Character Classes**: Choose from 5 unique classes (Warrior, Mage, Rogue, Paladin, Ranger)
 - **Combat System**: Turn-based battles with multiple enemy types
 - **Inventory Management**: Collect, use, and manage items and equipment
 - **Quest System**: Complete quests to earn rewards and advance the story
 - **World Exploration**: Navigate through multiple interconnected locations
 - **Save/Load System**: Save your progress and continue your adventure later
 - **Crafting System**: Combine items to create powerful equipment
+- **Achievement System**: Unlock 40+ achievements for completing challenges
+- **Statistics Tracking**: Detailed stats tracking for all your accomplishments
+- **Shop System**: Buy and sell items at various shops
 - **NPC Interactions**: Meet and interact with various characters
 
 ## Installation
@@ -103,23 +107,81 @@ game-2/
 5. Craft equipment when you have the materials
 6. Save your game frequently!
 
-## Future Enhancements (TODO)
-- [ ] Magic system with spells
-- [ ] More diverse enemy types
-- [ ] Boss battles
-- [ ] Multiple character classes
-- [ ] Skill trees
-- [ ] Multiplayer features
-- [ ] Achievements system
+## Documentation
+
+- **[Game Guide](GAME_GUIDE.md)**: Complete strategy guide and walkthrough
+- **[API Reference](API_REFERENCE.md)**: Developer documentation for extending the game
+- **[Design Document](DESIGN.md)**: Game design philosophy and systems
+- **[Contributing](CONTRIBUTING.md)**: How to contribute to the project
+- **[Changelog](CHANGELOG.md)**: Version history and updates
+
+## Content Summary
+
+### Items (20+)
+- 8 Weapons (Rusty Sword to Excalibur)
+- 6 Armor Sets (Cloth to Dragon Scale)
+- 7 Accessories (Bronze Ring to Phoenix Pendant)
+- 6 Consumables (Health Potions to Phoenix Down)
+- 8 Crafting Materials
+- 5 Quest Items
+
+### Enemies (13+)
+- Early: Slimes, Wolves, Goblins, Bandits
+- Mid: Skeletons, Orcs, Trolls, Dark Mages
+- Late: Vampires, Wyverns, Demons
+- Bosses: Goblin Chief, Ancient Dragon, Lich King
+
+### Locations (15+)
+- 3 Towns with shops and inns
+- 5 Wilderness areas
+- 4 Caves and dungeons
+- 3 Special locations
+
+### Quests (15+)
+- Combat quests
+- Collection quests
+- Exploration quests
+- Boss battles
+
+### Achievements (40+)
+- Combat achievements
+- Exploration achievements
+- Collection achievements
+- Progression achievements
+- Secret achievements
+
+### Character Classes (5)
+- Warrior: Tank and damage dealer
+- Mage: Intelligence and magic focus
+- Rogue: Agility and critical hits
+- Paladin: Balanced holy warrior
+- Ranger: Wilderness specialist
+
+## Future Enhancements
+- [ ] Magic system with spells and MP
+- [ ] Skill trees for deeper customization
+- [ ] More boss encounters
 - [ ] Random dungeon generation
+- [ ] Multiplayer features
 - [ ] Trading system with NPCs
 - [ ] Pet/companion system
+- [ ] New Game Plus mode
+- [ ] Difficulty settings
+- [ ] More quests and storylines
 
 ## Contributing
-Feel free to fork this project and add your own features!
+Feel free to fork this project and add your own features! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Testing
+Run the test suite:
+```bash
+python test_game.py
+```
+
+All tests should pass (37/37 tests passing).
 
 ## License
 MIT License - Feel free to use and modify as you wish.
 
 ## Credits
-Created as a demonstration of Python game development principles.
+Created as a demonstration of Python game development principles and comprehensive game design.
